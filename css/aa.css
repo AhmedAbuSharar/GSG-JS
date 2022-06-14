@@ -1,0 +1,30 @@
+body {
+    height: 2000px;
+}
+.hero {
+    background-image: url(../images/background/background1.webp);
+    height: 100vh;
+    position: relative;
+}
+
+.hero .title {
+    color:#fff;
+    font-size: 54px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+.hero .hero-p {
+    color:aliceblue;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    text-align: center;
+}
